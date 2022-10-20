@@ -103,7 +103,7 @@ a {
 .nameAndIntro {
   padding-left: 7rem;
   padding-right: 7rem;
-  padding-top: 6rem;
+  padding-top: 8rem;
 }
 
 #helloText {
@@ -146,17 +146,9 @@ a {
   display: none;
 }
 
-#downArrow {
-  padding-top: 11.5rem;
-}
-
 @media (max-width: 480px) {
-  /* .header {
-    display: none;
-  } */
-
   .nameAndIntro {
-    padding: 15rem 0rem 0rem 0rem;
+    padding: 13rem 0rem 0rem 0rem;
     width: 90%;
     text-align: center;
     margin: auto;
