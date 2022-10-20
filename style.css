@@ -21,29 +21,84 @@ html {
   src: url("assets/fonts/FiraMono-Regular.otf");
 }
 
-.header {
-  display: flex;
-  height: 4rem;
-  justify-content: space-between;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.menu {
-  line-height: 4rem;
-}
-
-.menu ol {
+li {
   list-style: none;
-}
-
-.menu ol li {
-  display: inline-block;
-  padding-right: 1.5rem;
-  color: #ccd6f6;
   font-family: FiraMono;
 }
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+
+.nav-logo{
+  width: 3rem;
+  height: auto;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #c4cde9;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #c4cde9;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+      position: fixed;
+      left: -105%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #0a192f;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+  }
+
+  .nav-menu.active {
+      left: 0;
+  }
+
+  .nav-item {
+      margin: 1.5rem 0;
+  }
+
+  .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+
+}
+
 
 .nameAndIntro {
   padding-left: 7rem;
@@ -96,9 +151,9 @@ html {
 }
 
 @media (max-width: 480px) {
-  .header {
+  /* .header {
     display: none;
-  }
+  } */
 
   .nameAndIntro {
     padding: 15rem 0rem 0rem 0rem;
