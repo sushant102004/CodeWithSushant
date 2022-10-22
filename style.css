@@ -355,6 +355,11 @@ a {
     margin-top: 10rem;
   }
 
+  #aboutSectionIntroText{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
   .aboutMeAndSkillsMasterContainer{
     display: block;
     padding-left: 2.5rem;
