@@ -5,6 +5,7 @@
 
 body {
   background-color: #0a192f;
+  font-family: FiraMono;
 }
 
 html {
@@ -146,6 +147,161 @@ a {
   display: none;
 }
 
+.skillsAndAbout{
+  margin-top: 15rem;
+}
+
+#moreAboutMeText{
+  color: #EAEFFF;
+  font-family: FiraMono;
+  font-weight: 900;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+#separatorBar{
+  width: 2.5rem;
+  height: 0.2rem;
+  background-color: #64FFDA;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+#aboutSectionIntroText{
+  margin-top: 1rem;
+  color: #CCD6F6;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+.aboutMeAndSkillsMasterContainer{
+  display: flex;
+  padding-left: 5rem;
+  margin-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.aboutMeContainer{
+  width: 45%;
+  padding-right: 10rem;
+}
+
+.aboutMeHeading{
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#headingDot{
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 10rem;
+  background-color: #64FFDA;
+  margin-right: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+#headingText{
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #EAEFFF;
+}
+
+
+#completeAboutMe{
+  color: #CCD6F6;
+  margin-left: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.skillCard{
+  margin-left: 1.5rem;
+  margin-top: 1.7rem;
+}
+
+.skillCard p{
+  color: #CCD6F6;
+  margin-bottom: 0.8rem;
+}
+
+.skillBar{
+  width: 25rem;
+  height: 0.5rem;
+  border-radius: 10rem;
+}
+
+#html{
+  background: linear-gradient(
+    to right, 
+    #64FFDA 0%,
+    #64FFDA 90%,
+    #002F75 90%,
+    #002F75 100%
+  );
+}
+
+#node{
+  background: linear-gradient(
+    to right, 
+    #64FFDA 0%,
+    #64FFDA 30%,
+    #002F75 30%,
+    #002F75 100%
+  );
+}
+
+#cpp{
+  background: linear-gradient(
+    to right, 
+    #64FFDA 0%,
+    #64FFDA 75%,
+    #002F75 75%,
+    #002F75 100%
+  );
+}
+
+#python{
+  background: linear-gradient(
+    to right, 
+    #64FFDA 0%,
+    #64FFDA 85%,
+    #002F75 85%,
+    #002F75 100%
+  );
+}
+
+#java{
+  background: linear-gradient(
+    to right, 
+    #64FFDA 0%,
+    #64FFDA 65%,
+    #002F75 65%,
+    #002F75 100%
+  );
+}
+
+#flutter{
+  background: linear-gradient(
+    to right, 
+    #64FFDA 0%,
+    #64FFDA 95%,
+    #002F75 95%,
+    #002F75 100%
+  );
+}
+
+#wordpress{
+  background: linear-gradient(
+    to right, 
+    #64FFDA 0%,
+    #64FFDA 95%,
+    #002F75 95%,
+    #002F75 100%
+  );
+}
+
+/* Mobile CSS */
+
 @media (max-width: 480px) {
   .nameAndIntro {
     padding: 13rem 0rem 0rem 0rem;
@@ -194,4 +350,51 @@ a {
     line-height: 2.5rem;
     color: #c4cde9;
   }
+
+  .skillsAndAbout{
+    margin-top: 10rem;
+  }
+
+  .aboutMeAndSkillsMasterContainer{
+    display: block;
+    padding-left: 2.5rem;
+    margin-top: 5rem;
+    padding-bottom: 7rem;
+    width: fit-content;
+  }
+
+  #moreAboutMeText{
+    font-size: 1.3rem;
+  }
+
+  #aboutSectionIntroText{
+    font-size: 1rem;
+  }
+
+  .aboutMeContainer{
+    width: 85%;
+  }
+
+  .skillsContainer {
+    margin-top: 3rem;
+    width: fit-content;
+  }
+
+  .skillCard{
+    margin-left: 1.5rem;
+    margin-top: 1.7rem;
+  }
+  
+  .skillCard p{
+    color: #CCD6F6;
+    margin-bottom: 0.8rem;
+  }
+  
+  .skillBar{
+    width: 15rem;
+    height: 0.5rem;
+    border-radius: 10rem;
+  }
+
+
 }
