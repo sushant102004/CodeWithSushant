@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sushant Dhiman</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
     </header>
 
     <div class="nameAndIntro">
-        <p id="helloText">Hello 👋, my name is</p>
+        <span id="helloText" class="typingText"></span>
         <p id="nameText">Sushant Dhiman</p>
         <p id="taglineText">I’m converting imagination into tech.</p>
         <p id="descriptionText">I'm a 2nd year B.Tech Computer Science Engineering Student at Maharishi Markandeshwar
@@ -107,7 +108,20 @@
         </div>
     </div>
 
+    <div class="footer">
+        <p>Developed with ❤️ by <b>Sushant</b></p>
+    </div>
+
     <script src="scripts.js"></script>
+    <script>
+        var options = {
+            strings: ['Hello 👋 my name is', 'I am a Programmer'],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true
+    };
+    var typed = new Typed('.typingText', options);
+    </script>
 </body>
 
 </html>

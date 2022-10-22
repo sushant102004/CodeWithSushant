@@ -300,6 +300,12 @@ a {
   );
 }
 
+.footer p{
+  text-align: center;
+  color: #CCD6F6;
+  padding-bottom: 1rem;
+}
+
 /* Mobile CSS */
 
 @media (max-width: 480px) {
@@ -402,6 +408,5 @@ a {
     height: 0.5rem;
     border-radius: 10rem;
   }
-
 
 }
