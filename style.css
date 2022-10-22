@@ -372,7 +372,8 @@ a {
   }
 
   .aboutMeContainer{
-    width: 85%;
+    width: fit-content;
+    padding-right: 1.5rem;
   }
 
   .skillsContainer {
@@ -391,7 +392,7 @@ a {
   }
   
   .skillBar{
-    width: 15rem;
+    width: 17rem;
     height: 0.5rem;
     border-radius: 10rem;
   }
