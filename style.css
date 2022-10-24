@@ -73,6 +73,12 @@ a {
   color: #c4cde9;
 }
 
+#menuResumeButton{
+  border: #64ffda 2px solid;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+}
+
 @media only screen and (max-width: 768px) {
   .nav-menu {
       position: fixed;
@@ -198,6 +204,11 @@ a {
 }
 
 .hobbiesHeading{
+  display: flex;
+  margin-top: 2rem;
+}
+
+.achievementsHeading{
   display: flex;
   margin-top: 2rem;
 }
@@ -398,6 +409,10 @@ a {
     text-align: center;
     line-height: 2.5rem;
     color: #c4cde9;
+  }
+
+  #introResumeButton a{
+  color: #c4cde9;
   }
 
   .skillsAndAbout{
